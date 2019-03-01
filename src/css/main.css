@@ -2,6 +2,18 @@
 /* main style end*/
 /* media queries mixin*/
 /* media queries mixin end*/
+.btn {
+  background: #fe1a3b;
+  color: #fff;
+  margin: 0 5px;
+  padding: 11px 28px;
+  border-radius: 25px;
+}
+
+.btn__yellow {
+  background: #f1c30f;
+}
+
 .logo {
   position: relative;
 }
@@ -54,12 +66,42 @@
   margin: 0 auto;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 1rem;
+}
+
 .header {
   display: flex;
   background-image: url("../img/top-img.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+
+.header__content {
+  margin: auto;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.header__description {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.header__btn {
+  padding: 15px 0;
 }
