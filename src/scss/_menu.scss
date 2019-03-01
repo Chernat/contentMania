@@ -1,0 +1,47 @@
+.logo {
+  position: relative;
+  @include sm {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  };
+}
+
+.bottom-nav {
+  position: absolute;
+  width: 100%;
+  height: 56px;
+  bottom: 0px;
+  transition: background-color .5s;
+
+  &--a {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    bottom: auto;
+  }
+}
+
+.menu_bars {
+  position: absolute;
+  right: 30px;
+  padding: 5px;
+  width: 38px;
+  cursor: pointer;
+  z-index: 1;
+
+  & span {
+    background: #18191d;
+    width: 30px;
+    height: 1px;
+    display: block;
+    &:nth-child(2) {
+      margin: 5px 0;
+    }
+
+    &:nth-child(1), &:nth-child(3) {
+      width: 20px;
+      margin: 0 auto;
+    }
+  }
+}
