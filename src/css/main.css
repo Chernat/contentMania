@@ -47,7 +47,7 @@
   padding: 5px;
   width: 38px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 21;
 }
 
 .menu_bars span {
@@ -104,4 +104,21 @@
 
 .header__btn {
   padding: 15px 0;
+}
+
+.services {
+  padding: 60px 0;
+  z-index: 0;
+}
+
+.services__title {
+  padding-bottom: 30px;
+}
+
+.services__description {
+  color: #fe1a3b;
+}
+
+.services__svg {
+  fill: #f1c30f;
 }
