@@ -2,6 +2,40 @@
 /* main style end*/
 /* media queries mixin*/
 /* media queries mixin end*/
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fe1a3b;
+}
+
+.nav-link.active {
+  color: #fe1a3b;
+  border-bottom: 2px solid #fe1a3b;
+}
+
+.modal-body {
+  color: #000;
+}
+
+.modal-header {
+  background-color: #fe1a3b;
+}
+
+.modal-content {
+  border: none;
+}
+
+.modal-footer {
+  display: block;
+  background-color: #fe1a3b;
+}
+
+.close {
+  color: #fff;
+}
+
 .btn {
   background: #fe1a3b;
   color: #fff;
@@ -14,11 +48,32 @@
   background: #f1c30f;
 }
 
+.title {
+  padding-bottom: 30px;
+}
+
+.description {
+  color: #fe1a3b;
+}
+
+.description__yellow {
+  color: #f1c30f;
+}
+
+.call-back {
+  background-image: url(../img/form-bg.jpg);
+  background-size: cover;
+}
+
+.call-back__form {
+  background-color: #fe1a3b;
+}
+
 .logo {
   position: relative;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .logo {
     position: absolute;
     left: 50%;
@@ -29,9 +84,10 @@
 .bottom-nav {
   position: absolute;
   width: 100%;
-  height: 56px;
   bottom: 0px;
   transition: background-color .5s;
+  z-index: 1;
+  padding: 5px 0;
 }
 
 .bottom-nav--a {
@@ -109,6 +165,8 @@
 .services {
   padding: 60px 0;
   z-index: 0;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
 }
 
 .services__title {
@@ -121,4 +179,28 @@
 
 .services__svg {
   fill: #f1c30f;
+}
+
+.price {
+  background-image: url("../img/yellow-center-2.png");
+  background-size: cover;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.price__text {
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #fff;
+}
+
+.price__num {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about {
+  color: #fff;
+  padding-top: 60px;
+  background-image: url("../img/red-center.jpg");
+  background-size: cover;
 }

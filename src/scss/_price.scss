@@ -1,0 +1,16 @@
+.price {
+  background-image: url('../img/yellow-center-2.png');
+  background-size: cover;
+  color: #fff;
+  padding-top: 60px;
+
+  &__text {
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #fff;
+  }
+
+  &__num {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}

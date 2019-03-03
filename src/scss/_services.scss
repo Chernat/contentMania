@@ -1,6 +1,8 @@
 .services {
   padding: 60px 0;
   z-index: 0;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
 
   &__title {
     padding-bottom: 30px;

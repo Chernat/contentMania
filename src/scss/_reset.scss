@@ -1,0 +1,32 @@
+.nav-link {
+  color: #fff;
+  &:hover {
+    color: $color-red;
+  }
+
+  &.active {
+    color: $color-red;
+    border-bottom: 2px solid $color-red;
+  }
+}
+
+.modal-body {
+  color: #000;
+}
+
+.modal-header {
+  background-color: $color-red;
+}
+
+.modal-content {
+  border: none;
+}
+
+.modal-footer {
+  display: block;
+  background-color: $color-red;
+}
+
+.close {
+  color: #fff;
+}

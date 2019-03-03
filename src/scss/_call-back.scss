@@ -1,0 +1,8 @@
+.call-back {
+  background-image: url(../img/form-bg.jpg);
+  background-size: cover;
+
+  &__form {
+    background-color: $color-red;
+  }
+}

@@ -1,0 +1,11 @@
+.title {
+  padding-bottom: 30px;
+}
+
+.description {
+  color: $color-red;
+
+  &__yellow {
+    color: $color-yellow;
+  }
+}
