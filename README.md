@@ -1,4 +1,4 @@
-# Grafit
-Template of website for Fitness-Studio
+# Content Mania
+Template of website for English Courses
 
-**GitHub Pages** you can find [there](https://chernat.github.io/-grafit/ "GitHub Pages for this repo").
+**GitHub Pages** you can find [there](https://chernat.github.io/contentMania/ "GitHub Pages for this repo").
