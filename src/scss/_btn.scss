@@ -1,11 +1,28 @@
 .btn {
-  background: $color-red;
-  color: #fff;
-  margin: 0 5px;
+  border: 2px solid #000;
+  color: #000;
   padding: 11px 28px;
-  border-radius: 25px;
+  border-radius: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 5px;
+  transition: .3s linear;
+
+  &:hover {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+  }
+
+  &__red {
+    border: 2px solid $color-red;
+    background-color: $color-red;
+    color: #fff;
+  }
 
   &__yellow {
-    background: $color-yellow;
+    border: 2px solid $color-yellow;
+    background-color: $color-yellow;
+    color: #000;
   }
 }

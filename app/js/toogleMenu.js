@@ -1,0 +1,1 @@
+!function(){let e=document.querySelector(".menu_bars"),t=document.querySelector(".mobile-menu"),n=document.querySelector(".mobile-menu__quit");e.addEventListener("click",function(){t.classList.add("mobile-menu--active")}),n.addEventListener("click",function(){t.classList.remove("mobile-menu--active")})}();

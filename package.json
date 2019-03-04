@@ -8,8 +8,9 @@
   "author": "Chernous Dmitriy",
   "license": "ISC",
   "devDependencies": {
+    "auto-prefixer": "^0.4.2",
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rigger": "^0.5.8",

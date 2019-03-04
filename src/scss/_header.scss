@@ -2,14 +2,10 @@
   display: flex;
   background-image: url('../img/top-img.jpg');
   background-size: cover;
-  background-position: center right;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-
-  &__content {
-    margin: auto;
-  }
 
   &__title {
     font-size: 48px;
@@ -21,12 +17,22 @@
 
   &__description {
     font-size: 48px;
+    font-style: italic;
     font-weight: 300;
     margin-bottom: 0;
     letter-spacing: 1px;
+    line-height: 1.2;
   }
 
   &__btn {
     padding: 15px 0;
+  }
+
+  &__svg {
+    width: 250px;
+
+    @include md {
+      width: 350px;
+    }
   }
 }

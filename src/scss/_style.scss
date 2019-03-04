@@ -1,0 +1,87 @@
+.title {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.description {
+  font-size: 24px;
+  font-style: italic;
+  color: $color-red;
+
+  &__yellow {
+    color: $color-yellow;
+  }
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.bg {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+
+  &__white {
+    background-image: url('../img/hero-bg.png');
+  }
+
+  &__yellow {
+    background-image: url('../img/yellow-center-2.png');
+  }
+
+  &__red {
+    background-image: url('../img/red-center.png')
+  }
+
+  &__red-white {
+    background-image: url('../img/form-bg.png')
+  }
+
+  &__black {
+    background-image: url('../img/black-bg.png')
+  }
+
+  &__mt {
+    margin-top: -20px;
+  }
+}
+
+.footer-contact {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer-social {
+  width: 50px;
+
+  &--fb {
+    fill: #4267b2;
+  }
+
+  &--tw {
+    fill: #006dbf;
+  }
+
+  &--yt {
+    fill: #ff0000;
+  }
+
+  &--skype {
+    fill: #1579c1;
+  }
+}
+
+.call-back-btn {
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}

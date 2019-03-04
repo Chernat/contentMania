@@ -1,8 +1,11 @@
 .price {
   background-image: url('../img/yellow-center-2.png');
   background-size: cover;
+  background-position: top center;
   color: #fff;
   padding-top: 60px;
+  position: relative;
+  margin-top: -15px;
 
   &__text {
     padding-bottom: 15px;

@@ -1,0 +1,13 @@
+.programm {
+  color: #fff;
+
+  &__bg-num {
+    color: #000;
+    position: absolute;
+    font-size: 150px;
+    font-weight: 700;
+    opacity: 0.1;
+    line-height: 0.7;
+    top: 0;
+  }
+}
